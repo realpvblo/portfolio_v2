@@ -1,0 +1,7 @@
+.timelineIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #bdbdbd;
+  object-fit: contain;
+}

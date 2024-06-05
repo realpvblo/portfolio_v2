@@ -1,0 +1,55 @@
+header {
+    width: 100%;
+    color: #333;
+    position: fixed;
+    top: 20px;
+    left: 0;
+}
+
+.headerWrapper {
+    background-color: #fff;
+    width: 500px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.headerMenu {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.headerMenu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    padding-left: 0;
+}
+
+.headerMenu ul li {
+    list-style: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.headerMenu ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.2s;
+}
+
+.headerMenu ul li a:hover {
+    text-decoration: none;
+    color: #64ffb1;
+    transition: color 0.2s;
+}
+
+li::marker {
+    content: none;
+}
